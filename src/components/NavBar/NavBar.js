@@ -3,12 +3,12 @@ import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <nav>
-      <div class="nav-wrapper">
-        <a href="/" class="brand-logo">
-          Lorem
+    <nav className="grey darken-4">
+      <div className="nav-wrapper">
+        <a href="/" className="brand-logo">
+          Bacon's Bits
         </a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
             <a href="/store">Store</a>
           </li>

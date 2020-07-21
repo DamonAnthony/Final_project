@@ -1,0 +1,44 @@
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 100%;
+}
+
+.game_link {
+  width: 300px;
+  height: fit-content;
+}
+.game {
+  display: inline-block;
+  margin: 8px;
+  max-width: 300px;
+  position: relative;
+  text-align: left;
+  background-color: #212121;
+}
+
+.game_image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.game_image_slot {
+  width: 300px;
+  height: 400px;
+  padding: 40px;
+}
+
+.game_title_price {
+  color: white;
+  width: 300px;
+  padding: 6px 15px 10px;
+  position: relative;
+}
+
+.game_title_price > span {
+  display: block;
+  font-size: 18px;
+}

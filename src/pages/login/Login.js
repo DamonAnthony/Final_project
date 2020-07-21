@@ -2,35 +2,21 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div className="form-container">
-      <form onSubmit={onSubmit}>
-        <div className="form-group">
-          <label htmlFor="email">Email Address</label>
-          <input
-            id="email"
-            type="email"
-            name="email"
-            value={email}
-            onChange={onChange}
-            required
-          />
+    <div className="Login-container">
+      <form action="" method="POST">
+        <div className="form-item">
+          <label htmlFor="username">UserName</label>
+          <input type="text" id="username" name="username" />
         </div>
-        <div className="form-group">
+        <div>
+          <label htmlFor="email">Email</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div>
           <label htmlFor="password">Password</label>
-          <input
-            id="password"
-            type="password"
-            name="password"
-            value={password}
-            onChange={onChange}
-            required
-          />
+          <input type="text" id="password" name="password" />
         </div>
-        <input
-          type="submit"
-          value="Login"
-          className="btn btn-primary btn-block"
-        />
+        <input type="onSubmit" />
       </form>
     </div>
   );

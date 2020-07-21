@@ -1,0 +1,19 @@
+.aboutUs-container {
+  color: white;
+}
+
+.aboutUs-title {
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+.aboutUs-text {
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 2px 2px black;
+}
+
+.store-btn {
+  margin: 10px;
+  text-align: center;
+}
