@@ -1,10 +1,18 @@
 const express = require("express");
+const connectDB = require("./config/db");
 
 const app = express();
 
-app.use("/api/users", require("./src/routes/users"));
-app.use("/api/auth", require("./src/routes/auth"));
+connectDB();
+
+app.use(express.json({ extented: false }));
+
+app.get("/", (req, res) => res.json({ msg: "BaconBits" }));
+
+app.use("/api/users", require("./routes/users"));
+app.use("/api/auth", require("./routes/auth"));
+app.use("/api/products", require("./routes/products"));
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => console.log(`Sever started on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
