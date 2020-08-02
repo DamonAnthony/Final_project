@@ -1,0 +1,25 @@
+SYSTEM REQUIREMENTS
+
+Required: Internet connection required to install and play.
+
+OS: / / Windows 7
+
+Processor: Intel Core 2 or better / AMD 64 X2 or better
+
+Memory: 1 GB for / 1.5 GB for and Windows 7
+
+Hard Drive: At least 10 GB of free space
+
+DVD-ROM: 8x Speed
+
+Video Card: 256MB RAM with support for shader model 3*
+
+Sound Card: Direct X 9.0c compatible
+
+DirectX: Version 9.0c (included)
+
+Online: 2 – 10 Players
+
+Input: Keyboard, Mouse, VOIP headset
+
+Supported video cards: Nvidia GeForce 6800 or better, ATI Radeon X1600 or better. Laptop versions of these chipsets may work but are not supported. Updates to your video and sound card drivers may be required.

@@ -1,0 +1,19 @@
+Minimum System Requirements
+OS: 32-bit
+Processor (AMD): Athlon X2 2.8 GHz
+Processor (Intel): Core 2 Duo 2.4 GHz
+Memory: 4 GB
+Hard Drive: 30 GB
+Graphics card (AMD): AMD Radeon HD 3870
+Graphics card (NVIDIA): Nvidia GeForce 8800 GT
+Graphics memory: 512 MB
+
+Recommended System Requirements
+OS: Windows 8 64-bit
+Processor (AMD): Six-core CPU
+Processor (Intel): Quad-core CPU
+Memory: 8 GB
+Hard Drive: 30 GB
+Graphics card (AMD): AMD Radeon HD 7870
+Graphics card (Nvidia): NVIDIA GeForce GTX 660
+Graphics memory: 3 GB

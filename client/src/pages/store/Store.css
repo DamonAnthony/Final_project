@@ -7,11 +7,16 @@
 }
 
 .game_link {
+  margin-right: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 300px;
   height: fit-content;
 }
 .game {
   display: inline-block;
+  flex-grow: 1;
   margin: 8px;
   max-width: 300px;
   position: relative;
@@ -22,7 +27,7 @@
 .game_image {
   max-width: 100%;
   max-height: 100%;
-  display: block;
+  display: inline-block;
 }
 
 .game_image_slot {
@@ -34,11 +39,12 @@
 .game_title_price {
   color: white;
   width: 300px;
+  height: 88px;
   padding: 6px 15px 10px;
   position: relative;
 }
 
 .game_title_price > span {
   display: block;
-  font-size: 18px;
+  font-size: 16px;
 }

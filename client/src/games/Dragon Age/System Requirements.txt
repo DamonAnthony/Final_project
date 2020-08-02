@@ -1,0 +1,17 @@
+Minimum Requirements:
+OS: Windows 7
+CPU: Intel Core 2 SINGLE 1.6 Ghz Processor or equivalent / AMD 64 2.0 Ghz Processor or equivalent
+RAM: 1 GB (1.5 GB  and Windows 7)
+DISC DRIVE: DVD Rom drive required for packaged media
+HARD DRIVE: 20 GB HD space
+VIDEO: ATI Radeon X850 256MB or greater / NVIDIA GeForce 6600 GT 128MB or greater / Radeon X1550 256MB / NVIDIA GeForce 7600 GT 256MB
+SOUND: Direct X Compatible Sound Card
+
+Recommended Specs:
+OS: Windows 7
+CPU: Intel Core 2 Duo 2.4 Ghz Processor or equivalent / AMD Phenom II X2 Dual-Core 2.7 Ghz Processor or equivalent
+RAM: 2 GB (3 GB and Windows 7)
+DISC DRIVE: DVD Rom drive required for packaged media
+HARD DRIVE: 20 GB HD space
+VIDEO: ATI 3850 512MB or greater / NVIDIA 8800GTS 512MB or greater
+SOUND: Direct X Compatible Sound Card

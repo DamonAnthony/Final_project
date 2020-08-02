@@ -1,0 +1,21 @@
+MINIMUM REQUIREMENTS
+
+OS: 64-bit Windows 7/8.1/10
+Processor (AMD): Phenom II X4 965 or Equivalent
+Processor (Intel): i3-2100 or Equivalent
+Memory: 8 GB
+Graphics card (AMD): Radeon HD 7850 or Equivalent
+Graphics card (NVIDIA): GeForce GTX 660 or Equivalent
+Online Connection Requirements: 512 KBPS or faster Internet connection
+Hard-drive space: 50 GB
+
+RECOMMENDED REQUIREMENTS
+
+OS: 64-bit Windows 10
+Processor (AMD): FX 8150 or Equivalent
+Processor (Intel): i5-3550 or Equivalent
+Memory: 8 GB
+Graphics card (AMD): Radeon R9 270X or Equivalent
+Graphics card (NVIDIA): GeForce GTX 670 or Equivalent
+Online Connection Requirements: Broadband Connection
+Hard-drive space: 50 GB

@@ -1,0 +1,23 @@
+MINIMUM REQUIREMENTS
+
+OS: 64-bit Windows 7/8.1/10
+Processor (AMD): FX-4330 or Equivalent
+Processor (Intel): i3-4350 or Equivalent
+Memory: 8 GB
+Graphics card (AMD): Radeon RX 460 or Equivalent
+Graphics card (NVIDIA): GeForce GTX 660 or Equivalent
+DirectX: 11 Compatible video card or equivalent
+Online Connection Requirements: 512 KBPS or faster Internet connection
+Hard-drive space: 48.5 GB
+
+RECOMMENDED REQUIREMENTS
+
+OS: 64-bit Windows 10
+Processor (AMD): FX-4330 or Equivalent
+Processor (Intel): i3-4350 or Equivalent
+Memory: 8 GB
+Graphics card (AMD): Radeon R9 270x or Equivalent
+Graphics card (NVIDIA): GeForce GTX 670 or Equivalent
+DirectX: 12 Compatible video card or equivalent
+Online Connection Requirements: Broadband Connection
+Hard-drive space: 48.5 GB

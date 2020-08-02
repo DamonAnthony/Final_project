@@ -1,0 +1,59 @@
+input {
+  margin: 1.2rem 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"],
+button {
+  font: inherit;
+}
+
+.register-group {
+  margin: 1.2rem 0;
+}
+
+.register-group input {
+  margin: 0.2rem 0;
+}
+
+.register-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.register-container h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.register-btn {
+  display: inline-block;
+  background: var(--light-color);
+  color: #ffffff;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+}
+
+.register-btn-block {
+  display: block;
+  width: 100%;
+}
