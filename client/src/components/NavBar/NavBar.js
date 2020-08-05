@@ -48,13 +48,13 @@ const NavBar = () => {
         </a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
-            <a href="/store">Store</a>
+            <a href="/Store">Store</a>
           </li>
           <li>
-            <a href="/aboutUs">AboutUs</a>
+            <a href="/AboutUs">AboutUs</a>
           </li>
           <li>
-            <a href="/contactUs">ContactUs</a>
+            <a href="/ContactUs">ContactUs</a>
           </li>
           <li>
             <ul>{isAuthenticated ? authLinks : guestLinks}</ul>
