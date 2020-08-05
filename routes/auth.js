@@ -19,17 +19,19 @@ router.get("/", auth, async (req, res) => {
 });
 
 // Auth user and get token
-router.get(
+router.post(
   "/",
   [
     check("email", "Please enter email").isEmail(),
     check("password", "Please enter password").exists(),
   ],
   async (req, res) => {
-    const error = validationResult(req);
+    const errors = validationResult(req);
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
     }
+
+    const { email, password } = req.body;
 
     try {
       let user = await User.findOne({ email });

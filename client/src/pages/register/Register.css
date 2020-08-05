@@ -1,3 +1,7 @@
+.register-heading {
+  color: #ffffff;
+}
+
 input {
   margin: 1.2rem 0;
 }
@@ -11,7 +15,6 @@ textarea {
   width: 100%;
   padding: 0.4rem;
   font-size: 1.2rem;
-  border: 1px solid #ccc;
 }
 
 input[type="submit"],
@@ -24,6 +27,8 @@ button {
 }
 
 .register-group input {
+  color: #ffffff;
+  background-color: #2a2a2a;
   margin: 0.2rem 0;
 }
 

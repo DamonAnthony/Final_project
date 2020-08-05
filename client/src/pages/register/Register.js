@@ -84,7 +84,7 @@ const Register = (props) => {
           </div>
           <input
             type="submit"
-            value="Register"
+            value="register"
             className="register-btn register-btn-block"
           />
         </form>
