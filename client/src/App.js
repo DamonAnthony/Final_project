@@ -76,15 +76,15 @@ function App() {
               <Route exact path="/Store/Madden20" component={Madden20} />
               <Route exact path="/Store/Fifa20" component={Fifa20} />
               <Route exact path="/Store/NFSHeat" component={NFSHeat} />
+              <Switch>
+                <PrivateRoute
+                  exact
+                  path="/payments"
+                  component={Payment}
+                ></PrivateRoute>
+              </Switch>
             </Switch>
             <Footer />
-            <Switch>
-              <PrivateRoute
-                exact
-                path="/payments"
-                component={Payment}
-              ></PrivateRoute>
-            </Switch>
           </div>
         </Router>
       </AlertState>

@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://Bacon123:12345@baconsbits.94shn.mongodb.net/Users?retryWrites=true&w=majority",
+  "mongoURI": "mongodb+srv://Bacon123:Bacon123@baconsbits.94shn.mongodb.net/Users?retryWrites=true&w=majority",
   "jwtSecret": "Toto"
 }

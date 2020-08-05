@@ -1,8 +1,17 @@
 .contact-us-container {
-  font-size: 24px;
+  height: fit-content;
+  font-size: 20px;
   color: #ffffff;
 }
 
+.contact-us-heading {
+  padding-left: 25px;
+}
+
+.details {
+  padding: 30px;
+}
+
 .detail {
-  padding-top: 20px;
+  padding-top: 5px;
 }
