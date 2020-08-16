@@ -44,35 +44,39 @@ const Login = (props) => {
   };
 
   return (
-    <div className="login-container">
-      <h1 className="login-heading">Login</h1>
-      <form onSubmit={onSubmit}>
-        <div className="login-group">
-          <label htmlFor="email">Email</label>
+    <div>
+      <div className="login-container">
+        <h1 className="login-heading">Login</h1>
+        <form onSubmit={onSubmit}>
+          <div className="login-group">
+            <label htmlFor="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={email}
+              onChange={onChange}
+              required
+            />
+          </div>
+          <div className="login-group">
+            <label htmlFor="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              value={password}
+              onChange={onChange}
+              required
+            />
+          </div>
           <input
-            type="email"
-            id="email"
-            name="email"
-            value={email}
-            onChange={onChange}
+            type="submit"
+            value="login"
+            className="login-btn login-btn-block"
           />
-        </div>
-        <div className="login-group">
-          <label htmlFor="password">Password</label>
-          <input
-            type="text"
-            id="password"
-            name="password"
-            value={password}
-            onChange={onChange}
-          />
-        </div>
-        <input
-          type="submit"
-          value="login"
-          className="login-btn login-btn-block"
-        />
-      </form>
+        </form>
+      </div>
     </div>
   );
 };

@@ -74,7 +74,7 @@ const Register = (props) => {
           <div className="register-group">
             <label htmlFor="password">Password</label>
             <input
-              type="text"
+              type="password"
               id="password"
               name="password"
               required
