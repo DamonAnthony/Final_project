@@ -75,28 +75,8 @@ const Login = (props) => {
             value="login"
             className="login-btn login-btn-block"
           />
-<<<<<<< HEAD
-        </div>
-        <div className="login-group">
-          <label htmlFor="password">Password</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            value={password}
-            onChange={onChange}
-          />
-        </div>
-        <input
-          type="submit"
-          value="login"
-          className="login-btn login-btn-block"
-        />
-      </form>
-=======
         </form>
       </div>
->>>>>>> 58bf9e0a5ae18649592c8bf5733241bde6c624e9
     </div>
   );
 };
