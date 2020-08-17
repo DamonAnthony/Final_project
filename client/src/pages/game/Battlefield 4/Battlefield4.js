@@ -14,7 +14,7 @@ const Battlefield4 = () => {
           src="https://www.youtube.com/embed/sclTMEd7JN8"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullscreen
         ></iframe>
       </div>
       <h1 className="screenshots-heading">Screenshots</h1>
@@ -63,8 +63,11 @@ const Battlefield4 = () => {
           </p>
         </div>
         <div className="price-card">
-          <h3 className="price">R349.95</h3>
-          <a className="waves-effect waves-light btn payment-btn" href="!#">
+          <h4 className="price">R349.95</h4>
+          <a
+            className="waves-effect waves-light btn payment-btn"
+            href="/Payment"
+          >
             <i className="material-icons left">shopping_cart</i>Purchase
           </a>
         </div>

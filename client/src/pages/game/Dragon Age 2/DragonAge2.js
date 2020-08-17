@@ -14,7 +14,7 @@ const DragonAge2 = () => {
           src="https://www.youtube.com/embed/Rh43mO4Huds"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullscreen
         ></iframe>
       </div>
       <h1 className="screenshots-heading">Screenshots</h1>
@@ -63,8 +63,11 @@ const DragonAge2 = () => {
           </p>
         </div>
         <div className="price-card">
-          <h3 className="price">R349.95</h3>
-          <a className="waves-effect waves-light btn payment-btn" href="!#">
+          <h4 className="price">R349.95</h4>
+          <a
+            className="waves-effect waves-light btn payment-btn"
+            href="/Payment"
+          >
             <i className="material-icons left">shopping_cart</i>Purchase
           </a>
         </div>
@@ -73,14 +76,14 @@ const DragonAge2 = () => {
         <pre>
           {`PC MINIMUM
 OS: with SP3, with SP2, or Windows 7
-CPU: Intel Core 2 Duo (or equivalent) running at 1.8 GHz or greater; AMD Athlon 64 X2 (or equivalent) running at 1.8 GHz or greater
+CPU: Intel Core 2 Duo (or equivalent) running at 1.8 GHz or greater
 RAM: 1 GB (1.5 GB Vista and Windows 7)
 Video: ATI Radeon HD 2600 Pro 256 MB; NVIDIA GeForce 7900 GS 256 MB cards
 Hard Drive: 7 GB
 Sound: Direct X 9.0c Compatible Sound Card Windows Experience Index: 4.5
 
 PC RECOMMENDED
-CPU: Intel Core 2 Quad 2.4 GHz Processor or equivalent; AMD Phenom II X3 Triple core 2.8 GHz or equivalent
+CPU: Intel Core 2 Quad 2.4 GHz Processor or equivalent
 RAM: 2 GB (4 GB Vista and Windows 7)
 Video: ATI 3850 512 MB or greater; NVIDIA 8800 GTS 512 MB or greater
 DirectX 11 Video: ATI 5850 or greater; NVIDIA 460 or greater`}
