@@ -14,7 +14,7 @@ const DragonAgeOrigins = () => {
           src="https://www.youtube.com/embed/GoEol-5Epfg"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullscreen
         ></iframe>
       </div>
       <h1 className="screenshots-heading">Screenshots</h1>

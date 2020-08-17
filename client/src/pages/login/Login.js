@@ -32,7 +32,7 @@ const Login = (props) => {
   const onChange = (e) => setUser({ ...user, [e.target.name]: e.target.value });
 
   const onSubmit = (e) => {
-    e.preventDefualt();
+    e.preventDefault();
     if (email === "" || password === "") {
       setAlert("Please fill in all fields", "danger");
     } else {
@@ -72,7 +72,7 @@ const Login = (props) => {
           </div>
           <input
             type="submit"
-            value="login"
+            value="Login"
             className="login-btn login-btn-block"
           />
         </form>

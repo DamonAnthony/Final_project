@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, Fragment } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import "../node_modules/materialize-css/dist/css/materialize.min.css";
@@ -23,71 +23,76 @@ import NFSHeat from "./pages/game/NFS Heat/NFSHeat";
 import Payment from "./pages/payment/payment";
 import AuthState from "./context/auth/AuthState";
 import AlertState from "./context/alert/AlertState";
+import Alerts from "./components/alert/Alerts";
 import PrivateRoute from "./components/routing/PrivateRoute";
 
-function App() {
+const App = () => {
   useEffect(() => {
     M.AutoInit();
   });
+
   return (
     <AuthState>
       <AlertState>
         <Router>
-          <div className="App">
+          <Fragment>
             <NavBar />
-            <Switch>
-              <Route exact path="/" component={Store} />
-              <Route exact path="/AboutUs" component={AboutUs} />
-              <Route exact path="/ContactUs" component={ContactUs} />
-              <Route exact path="/Store" component={Store} />
-              <Route exact path="/Login" component={Login} />
-              <Route exact path="/Register" component={Register} />
-              <Route
-                exact
-                path="/Store/DragonAgeOrigins"
-                component={DragonAgeOrigins}
-              />
-              <Route exact path="/Store/DragonAge2" component={DragonAge2} />
-              <Route
-                exact
-                path="/Store/DragonAgeInquisition"
-                component={DragonAgeInquisition}
-              />
-              <Route
-                exact
-                path="/Store/BattlefieldBadCompany2"
-                component={BattlefieldBadCompany2}
-              />
-              <Route
-                exact
-                path="/Store/Battlefield3"
-                component={Battlefield3}
-              />
-              <Route
-                exact
-                path="/Store/Battlefield4"
-                component={Battlefield4}
-              />
-              <Route
-                exact
-                path="/Store/Battlefield1"
-                component={Battlefield1}
-              />
-              <Route exact path="/Store/Madden20" component={Madden20} />
-              <Route exact path="/Store/Fifa20" component={Fifa20} />
-              <Route exact path="/Store/NFSHeat" component={NFSHeat} />
-              <PrivateRoute
-                exact
-                path="/payments"
-                component={Payment}
-              ></PrivateRoute>
-            </Switch>
+            <div>
+              <Alerts />
+              <Switch>
+                <Route exact path="/" component={Store} />
+                <Route exact path="/AboutUs" component={AboutUs} />
+                <Route exact path="/ContactUs" component={ContactUs} />
+                <Route exact path="/Store" component={Store} />
+                <Route exact path="/Login" component={Login} />
+                <Route exact path="/Register" component={Register} />
+                <Route
+                  exact
+                  path="/Store/DragonAgeOrigins"
+                  component={DragonAgeOrigins}
+                />
+                <Route exact path="/Store/DragonAge2" component={DragonAge2} />
+                <Route
+                  exact
+                  path="/Store/DragonAgeInquisition"
+                  component={DragonAgeInquisition}
+                />
+                <Route
+                  exact
+                  path="/Store/BattlefieldBadCompany2"
+                  component={BattlefieldBadCompany2}
+                />
+                <Route
+                  exact
+                  path="/Store/Battlefield3"
+                  component={Battlefield3}
+                />
+                <Route
+                  exact
+                  path="/Store/Battlefield4"
+                  component={Battlefield4}
+                />
+                <Route
+                  exact
+                  path="/Store/Battlefield1"
+                  component={Battlefield1}
+                />
+                <Route exact path="/Store/Madden20" component={Madden20} />
+                <Route exact path="/Store/Fifa20" component={Fifa20} />
+                <Route exact path="/Store/NFSHeat" component={NFSHeat} />
+                <PrivateRoute
+                  exact
+                  path="/payments"
+                  component={Payment}
+                ></PrivateRoute>
+              </Switch>
+            </div>
             <Footer />
-          </div>
+          </Fragment>
         </Router>
       </AlertState>
     </AuthState>
   );
-}
+};
 
 export default App;
