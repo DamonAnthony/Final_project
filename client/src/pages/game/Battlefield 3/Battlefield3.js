@@ -53,7 +53,7 @@ const Battlefield3 = () => {
           </p>
         </div>
         <div className="price-card">
-          <h3 className="price">R349.95</h3>
+          <h4 className="price">R349.95</h4>
           <a className="waves-effect waves-light btn payment-btn" href="!#">
             <i className="material-icons left">shopping_cart</i>Purchase
           </a>
@@ -62,12 +62,12 @@ const Battlefield3 = () => {
       <div className="game-requirements">
         <pre>
           {`Minimum System Requirements
-OS:
+OS: Windows 7 64-bit
 Processor: 2 GHz Dual Core (Core 2 Duo 2.4 GHz or Althon X2 2.7 GHz)
 Memory: 2 GB
 Hard Drive: 20 GB
-Graphics card (AMD): DirectX 10.1 compatible with 512 MB RAM (ATI Radeon 3000, 4000, 5000 or 6000 series, with ATI Radeon 3870 or higher performance)
-Graphics card (NVIDIA): DirectX 10.0 compatible with 512 MB RAM (NVIDIA GeForce 8, 9, 200, 300, 400 or 500 series with NVIDIA GeForce 8800 GT or higher performance)
+Graphics card (AMD): DirectX 10.1 compatible with 512 MB RAM 
+Graphics card (NVIDIA): DirectX 10.0 compatible with 512 MB RAM 
 Sound card: DirectX Compatible
 Keyboard and Mouse
 
@@ -76,7 +76,7 @@ OS: Windows 7 64-bit
 Processor: Quad-core CPU
 Memory: 4 GB
 Hard Drive: 20 GB
-Graphics Card: DirectX 11 compatible with 1024 MB RAM (NVIDIA GeForce GTX 560 or ATI Radeon 6950)
+Graphics Card: DirectX 11 compatible with 1024 MB RAM 
 Sound Card: DirectX Compatible
 Keyboard and Mouse`}
         </pre>

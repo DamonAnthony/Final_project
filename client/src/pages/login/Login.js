@@ -60,7 +60,7 @@ const Login = (props) => {
         <div className="login-group">
           <label htmlFor="password">Password</label>
           <input
-            type="text"
+            type="password"
             id="password"
             name="password"
             value={password}

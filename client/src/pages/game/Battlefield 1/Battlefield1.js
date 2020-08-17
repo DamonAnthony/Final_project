@@ -66,7 +66,7 @@ const Battlefield1 = () => {
           </p>
         </div>
         <div className="price-card">
-          <h3 className="price">R349.95</h3>
+          <h4 className="price">R349.95</h4>
           <a className="waves-effect waves-light btn payment-btn" href="!#">
             <i className="material-icons left">shopping_cart</i>Purchase
           </a>
