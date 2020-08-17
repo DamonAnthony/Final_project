@@ -18,13 +18,13 @@ const Footer = () => {
 
             <ul>
               <li>
-                <a class="grey-text text-lighten-3" href="/aboutUs">
+                <a class="grey-text text-lighten-3" href="/AboutUs">
                   About Us
                 </a>
               </li>
 
               <li>
-                <a class="grey-text text-lighten-3" href="/contactUs">
+                <a class="grey-text text-lighten-3" href="/ContactUs">
                   Contact Us
                 </a>
               </li>
