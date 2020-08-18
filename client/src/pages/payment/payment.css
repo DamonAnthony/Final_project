@@ -1,3 +1,63 @@
-.payment-container {
-  height: 600px;
+.payment-delivery {
+  height: 100%;
+  width: 100%;
+}
+
+.heading {
+  color: #ffffff;
+}
+
+.main-heading {
+  padding-left: 2%;
+}
+
+.sub-heading {
+  padding-left: 2%;
+}
+
+.option {
+  padding-left: 2%;
+}
+
+.paypal-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.tabs {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2a2a2a;
+  background-color: #2a2a2a;
+}
+
+.btn {
+  margin: 2%;
+  background-color: #2a2a2a;
+}
+
+.tab {
+  background-color: #2a2a2a;
+}
+
+.tabs .tab a {
+  color: #ffffff;
+}
+
+.tabs .tab a:hover {
+  color: #424242;
+  background-color: #424242;
+}
+
+.tabs .tab a:focus.active {
+  color: #424242;
+  background-color: #2a2a2a;
+}
+
+.tabs .indicator {
+  background-color: #424242;
+}
+
+.address {
+  color: #ffffff;
 }

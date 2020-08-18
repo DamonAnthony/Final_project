@@ -15,7 +15,7 @@ const AboutUs = () => {
       </p>
       <div className="store-btn">
         <a
-          href="../store/"
+          href="/Store"
           className="waves-effect waves-light btn white black-text"
         >
           Browse Store

@@ -63,7 +63,7 @@ const DragonAgeOrigins = () => {
         <div className="price-card">
           <h4 className="price">R349.95</h4>
           <a
-            className="waves-effect waves-light btn payment-btn"
+            className="waves-effect waves-light btn black payment-btn"
             href="/Payment"
           >
             <i className="material-icons left">shopping_cart</i>Purchase

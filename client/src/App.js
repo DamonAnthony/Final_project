@@ -25,6 +25,7 @@ import AuthState from "./context/auth/AuthState";
 import AlertState from "./context/alert/AlertState";
 import Alerts from "./components/alert/Alerts";
 import PrivateRoute from "./components/routing/PrivateRoute";
+import ThankYou from "./pages/thankYou/ThankYou";
 
 const App = () => {
   useEffect(() => {
@@ -80,9 +81,10 @@ const App = () => {
                 <Route exact path="/Store/Madden20" component={Madden20} />
                 <Route exact path="/Store/Fifa20" component={Fifa20} />
                 <Route exact path="/Store/NFSHeat" component={NFSHeat} />
+                <Route exact path="/ThankYou" component={ThankYou} />
                 <PrivateRoute
                   exact
-                  path="/payments"
+                  path="/Payment"
                   component={Payment}
                 ></PrivateRoute>
               </Switch>
