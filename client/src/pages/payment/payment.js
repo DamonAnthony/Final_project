@@ -7,7 +7,7 @@ const Payment = () => {
       <div className="payment-delivery">
         <h1 className="main-heading heading">Payment Method</h1>
         <div className="row tabs-row">
-          <div className="col s12 ">
+          <div className="col s12">
             <ul className="tabs">
               <li className="tab col 3">
                 <a className="tab-option active white-text" href="#payment">
